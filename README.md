@@ -1,52 +1,75 @@
-# SaaS Website Builder, Project Management And Dashboard With Stripe using Nextjs14, Bun, Stripe Connect, Prisma, MySQL, Tailwind
+# SaaS Website Builder, Project Management & Dashboard
 
-License: [Purchase your license from here to use this project for commercial use](https://webprodigies.com/codelicense)
+```markdown
+# SaaS Website Builder, Project Management & Dashboard
 
-![Application Logo](https://storage.googleapis.com/msgsndr/0wtSXexlPhMN1945ooxW/media/65b7c3d24660477daf3d6708.png)
+A full-featured SaaS platform built with **Next.js 14**, **Bun**, **Stripe Connect**, **Prisma**, **NeonDB**, and **Tailwind CSS**. This project provides a seamless website-building experience with integrated project management and a powerful dashboard, all powered by Stripe for payment handling.
 
-| 🟢 Full Video | 🔴 Demo |
-|------------|------|
-| [Full Video](https://youtu.be/6omuUOZcWL0) | [Demo](https://webprodigies.com/demo) |
+## Features
 
-## ✨ Private Web design / development FREELANCE Community 
-Join the Community if you want to learn how to make money this year with websites! 
-FREE access Limited spots only!!!
-[Link - Private Community](https://webprodigies.com/communities)
+- **Next.js 14** for a performant and scalable frontend/backend.
+- **Bun** as the runtime for optimized speed and efficiency.
+- **Stripe Connect** for seamless subscription and payment processing.
+- **Prisma ORM** for database interaction.
+- **NeonDB** for a scalable and serverless PostgreSQL database.
+- **Tailwind CSS** for modern and responsive UI.
+- **Project Management Tools** to track tasks and manage workflows.
+- **Dashboard** with real-time analytics and insights.
 
-## Get all the help you need
-Share all bugs and solutions in the discord. Would love to collaborate and get to know talented developers like yourself. 
-[Discord](https://discord.gg/GG4wJkxh)
+## Installation
 
-## SaaS Notion Clone with Realtime cursors, Nextjs 13, Stripe, Drizzle ORM, Tailwind, Supabase, Sockets
-[Saas Notion Clone](https://www.youtube.com/watch?v=A3l6YYkXzzg)
+### Prerequisites
 
-### Features in this application.
-- 🤯 Multivendor B2B2B Saas
-- 🏢 Agency and Sub accounts
-- 🌐 Unlimited funnel hosting
-- 🚀 Full Website & Funnel builder
-- 💻 Role-based Access
-- 🔄 Stripe Subscription plans
-- 🛒Stripe add-on products
-- 🔐 Connect Stripe accounts for all users! - Stripe Connect
-- 💳 Charge application fee per sale and recurring sales
-- 💰 Custom Dashboards
-- 📊 Media Storage
-- 📈 Stripe Product Sync
-- 📌Custom checkouts on funnels
-- 📢 Get leads from funnels
-- 🎨 Khanban board
-- 📂 Project management system
-- 🔗 Notifications
-- 📆 Funnel performance metrics
-- 🧾 Agency and subacc metrics
-- 🌙 Graphs and charts
-- ☀️ Light & Dark mode
-- 📄 Functioning landing page
+Ensure you have the following installed:
+- [Bun](https://bun.sh/)
+- [Node.js](https://nodejs.org/)
+- [NeonDB](https://neon.tech/) 
+- [Stripe Account](https://stripe.com/)
+
+### Clone the Repository
+```sh
+git clone https://github.com/yourusername/saas-website-builder.git
+cd saas-website-builder
+```
+
+### Install Dependencies
+```sh
+bun install
+```
 
 
-## Website with background grids
-[ibelick](https://bg.ibelick.com/)
+### Run Migrations
+```sh
+npx prisma migrate dev --name init
+```
 
-## Shadcn UI Theme creator
-[Link To Website](https://gradient.page/tools/shadcn-ui-theme-generator)
+### Start the Development Server
+```sh
+bun run dev
+```
+
+The app should now be running on `http://localhost:3000`
+
+## Deployment
+To deploy the application, you can use **Vercel** for the frontend and **NeonDB** for the database.
+
+1. Deploy the Next.js app to [Vercel](https://vercel.com/).
+2. Configure environment variables in Vercel.
+3. Ensure your Stripe webhooks are correctly set up.
+
+## Contributing
+Contributions are welcome! Feel free to fork the repository, create a branch, and submit a pull request.
+
+## License
+This project is licensed under the MIT License.
+
+---
+
+### TODOs & Future Enhancements
+- Add AI-powered website design suggestions.
+- Implement more third-party integrations.
+- Improve analytics and reporting in the dashboard.
+
+Happy coding! 🚀
+```
+
