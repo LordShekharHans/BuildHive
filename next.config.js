@@ -7,6 +7,7 @@ const nextConfig = {
       'img.clerk.com',
       'subdomain',
       'files.stripe.com',
+      'pbs.twimg.com',
     ],
   },
   reactStrictMode: false,

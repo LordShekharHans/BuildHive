@@ -33,7 +33,7 @@ module.exports = withUt({
             muted: colors.gray[50],
             subtle: colors.gray[100],
             DEFAULT: colors.white,
-            emphasis: colors.gray[700],
+            emphasis: colors.gray[100],
           },
           border: {
             DEFAULT: colors.gray[200],
