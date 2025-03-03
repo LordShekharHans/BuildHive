@@ -69,5 +69,5 @@ This project is licensed under the MIT License.
 - Improve analytics and reporting in the dashboard.
 
 Happy coding! 🚀
-```
+
 
