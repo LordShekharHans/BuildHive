@@ -1,7 +1,5 @@
 # SaaS Website Builder, Project Management & Dashboard
 
-```markdown
-# SaaS Website Builder, Project Management & Dashboard
 
 A full-featured SaaS platform built with **Next.js 14**, **Bun**, **Stripe Connect**, **Prisma**, **NeonDB**, and **Tailwind CSS**. This project provides a seamless website-building experience with integrated project management and a powerful dashboard, all powered by Stripe for payment handling.
 
