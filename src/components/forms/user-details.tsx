@@ -121,7 +121,7 @@ const UserDetails = ({ id, type, subAccounts, userData }: Props) => {
     if (userData) {
       form.reset(userData)
     }
-  }, [userData, data])
+  }, [userData, data,form])
 
   const onChangePermission = async (
     subAccountId: string,

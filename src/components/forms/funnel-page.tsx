@@ -64,7 +64,7 @@ const CreateFunnelPage: React.FC<CreateFunnelPageProps> = ({
     if (defaultData) {
       form.reset({ name: defaultData.name, pathName: defaultData.pathName })
     }
-  }, [defaultData])
+  }, [defaultData,form])
 
   const onSubmit = async (values: z.infer<typeof FunnelPageSchema>) => {
     if (order !== 0 && !values.pathName)
