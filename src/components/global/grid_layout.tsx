@@ -52,20 +52,20 @@ const Beambox = () => (
     <div className="overflow-hidden relative w-full h-full">
 
        <Image src="/assets/business.jpg" layout="fill" objectFit="cover" className="rounded-xl" alt="Business" />
-       {/* <Image src="/assets/businees.jpg" layout="fill" objectFit="cover" className="rounded-xl"  /> */}
+      
       </div>
     </div>
-  // </div>
+
 );
 const Innovationbox = () => (
   <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl ">
     <div className="overflow-hidden relative w-full h-full">
 
        <Image src="/assets/innovation.jpg" layout="fill" objectFit="cover" className="rounded-xl" alt="Business" />
-       {/* <Image src="/assets/businees.jpg" layout="fill" objectFit="cover" className="rounded-xl"  /> */}
+      
       </div>
     </div>
-  // </div>
+
 );
 
 const Communicationbox = () => (
@@ -73,30 +73,30 @@ const Communicationbox = () => (
     <div className="overflow-hidden relative w-full h-full">
 
        <Image src="/assets/communication.png" layout="fill" objectFit="cover" className="rounded-xl" alt="Business" />
-       {/* <Image src="/assets/businees.jpg" layout="fill" objectFit="cover" className="rounded-xl"  /> */}
+      
       </div>
     </div>
-  // </div>
+
 );
 const SkeletonSix = () => (
   <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl ">
     <div className="overflow-hidden relative w-full h-full">
 
        <Image src="/assets/preview.png" layout="fill" objectFit="cover" className="rounded-xl" alt="Business" />
-       {/* <Image src="/assets/businees.jpg" layout="fill" objectFit="cover" className="rounded-xl"  /> */}
+     
       </div>
     </div>
-  // </div>
+
 );
 const SkeletonThree = () => (
   <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl ">
     <div className="overflow-hidden relative w-full h-full">
 
        <Image src="/assets/customization.png" layout="fill" objectFit="cover" className="rounded-xl" alt="Business" />
-       {/* <Image src="/assets/businees.jpg" layout="fill" objectFit="cover" className="rounded-xl"  /> */}
+     
       </div>
     </div>
-  // </div>
+
 );
 const SkeletonFive = () => {
   const variants = {

@@ -7,7 +7,7 @@ import { ThemeProvider } from '@/providers/theme-provider'
 import ModalProvider from '@/providers/modal-provider'
 import { Toaster } from '@/components/ui/toaster'
 import { Toaster as SonnarToaster } from '@/components/ui/sonner'
-import Head from 'next/head'
+
 
 const font = DM_Sans({ subsets: ['latin'] })
 
