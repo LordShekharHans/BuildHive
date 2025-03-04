@@ -7,12 +7,16 @@ import { ThemeProvider } from '@/providers/theme-provider'
 import ModalProvider from '@/providers/modal-provider'
 import { Toaster } from '@/components/ui/toaster'
 import { Toaster as SonnarToaster } from '@/components/ui/sonner'
+import Head from 'next/head'
 
 const font = DM_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Plura',
+  title: 'BuildHive',
   description: 'All in one Agency Solution',
+  icons: {
+    icon: '/favicon.png',
+  }
 }
 
 export default function RootLayout({
@@ -25,6 +29,7 @@ export default function RootLayout({
       lang="en"
       suppressHydrationWarning
     >
+      
       <body className={font.className}>
         <ThemeProvider
           attribute="class"
